@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MyLib/MyLib.vcxproj" Id="e11e288b-7ebe-46a3-a719-4ec91e147107" />
+  <Project Path="SandBox/SandBox.vcxproj" Id="c63a28f6-12a3-4fd6-91d9-45d0658870d3">
+    <BuildDependency Project="MyLib/MyLib.vcxproj" />
+  </Project>
+</Solution>
